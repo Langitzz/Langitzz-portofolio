@@ -475,10 +475,12 @@ h6 {
     width: 240px;
     overflow-y: auto;
     height: auto;
-    background: #ffffff;
+    background: none;
     padding: 80px 0 20px 0;
+    border: none;
     border-radius: 0;
     z-index: 9998;
+
   }
 
   .mobile-nav-active .navmenu ul li {
