@@ -29,7 +29,7 @@
 
   function mobileNavToogle() {
     const body = document.querySelector('body') ;
-    const menu = documrnt.selector(' .navmrnu ul');
+    const menu = document.querySelector(' .navmenu ul');
     classList.toggle('mobile-nav-active');
     mobileNavToggleBtn.classList.toggle('bi-list');
     mobileNavToggleBtn.classList.toggle('bi-x');
