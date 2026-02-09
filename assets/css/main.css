@@ -460,6 +460,7 @@ h6 {
   .mobile-nav-active .navmenu {
     position: fixed;
     overflow: hidden;
+    display: flex;
     inset: 0;
     background: rgba(0, 0, 0, 0.4);
     transition: 0.3s;
@@ -474,7 +475,7 @@ h6 {
     width: 260px;
     height: 100vh;
     background: #ffffff;
-    padding-top: 8-px;
+    padding-top: 8px;
     gap: 20px;
     z-index: 9999;
   }
