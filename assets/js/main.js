@@ -28,9 +28,16 @@
   const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
 
   function mobileNavToogle() {
-    document.querySelector('body').classList.toggle('mobile-nav-active');
+    const body = document.querySelector('body') ;
+    const menu = documrnt.selector(' .navmrnu ul');
+    classList.toggle('mobile-nav-active');
     mobileNavToggleBtn.classList.toggle('bi-list');
     mobileNavToggleBtn.classList.toggle('bi-x');
+    if (body.classList.contains('mobile-nav-active')) {
+      navmenu.style.display = 'flex';
+    } else {
+      navmenu.style.display = 'none';
+  }
   }
   if (mobileNavToggleBtn) {
     mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
